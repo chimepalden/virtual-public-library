@@ -1,0 +1,86 @@
+:root {
+    --border-color: #000;
+    --grey: #2d2e2e;
+    --btn-blue: #3891a6;
+    --btn-text-white: #fbfbfb;
+    --body-color: #b0c4de;
+    --inner-container-color: #add8e6;
+    --container-color: #6bbeba;
+    --text-color: #0a232b;
+  }
+  .searched-result-booklist{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  .searched-result-page-title{
+      font-size: 2.7em;
+      color: var(--text-color);
+  }
+  .searched-result-search-field{
+    font-size: 1.5em;
+    border-radius: 10px;
+  }
+  .searched-result-search-button{
+    font-size: 1.5em;
+    border-radius: 10px;
+    background-color: var(--btn-blue);
+    color: var(--btn-text-white);
+    margin-left: 5px;
+  }
+
+  .searched-result-book-container{
+    background-color: var(--container-color);
+    width: 600px;
+    height: 600px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid var(--border-color);
+}
+.searched-result-book-details{
+    background-color: var(--inner-container-color);
+    color: var(--text-color);
+    font-size: 2.2em;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 25px;
+    height: 500px;
+}
+
+.inner-text-div {
+    margin-top: 15px;
+    text-align: left;
+    margin-left: 15px;
+    font-size: 24pt;
+}
+
+.searched-result-owner-update-btn{
+    border-radius: 10px;
+    font-size: 1.5em;
+    background-color: var(--btn-blue);
+    color: var(--btn-text-white);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.searched-result-user-checkout-btn{
+    border-radius: 10px;
+    font-size: 1.5em;
+    background-color: var(--btn-blue);
+    color: var(--btn-text-white);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.searched-result-owner-home-btn{
+    background-color: var(--btn-blue);
+    border-radius: 10px;
+    font-size: 1.8em;
+    width: 120px;
+}
+.searched-result-user-home-btn{
+    background-color: var(--btn-blue);
+    border-radius: 10px;
+    font-size: 1.8em;
+    width: 120px;
+}

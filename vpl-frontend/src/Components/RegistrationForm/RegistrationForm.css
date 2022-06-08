@@ -1,0 +1,78 @@
+:root {
+    --border-color: #000;
+    --grey: #2d2e2e;
+    --btn-blue: #3891a6;
+    --btn-text-white: #fbfbfb;
+    --body-color: #b0c4de;
+    --inner-container-color: #add8e6;
+    --container-color: #6bbeba;
+    --text-color: #0a232b;
+  }
+.registration{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.register-header{
+    color: var(--text-color);
+    font-size: 4.5em;
+    font-weight: bolder;
+}
+
+.register-form{
+    background-color: var(--container-color);
+    height: 940px
+    
+}
+
+.first-name-container{
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 170px;
+    background-color: var(--inner-container-color);
+    
+}
+.last-name-container{
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 170px;
+    background-color: var(--inner-container-color);
+}
+
+.email-container{
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 170px;
+    background-color: var(--inner-container-color);
+}
+.password-container{
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 170px;
+    background-color: var(--inner-container-color);
+}
+
+.register-input-field-label{
+    font-size: 2.5em;
+    color: var(--text-color);
+    margin-bottom: 35px;
+    margin-left: 20px;
+}
+.register-registration-input{
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.login-button{
+    font-size: 2.1em;
+    font-weight: bolder;
+}
+
+.register-button{
+    font-size: 2.1em;
+    font-weight: bolder;
+}

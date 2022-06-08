@@ -1,0 +1,53 @@
+:root {
+    --bg: #0f0f0f;
+    --grey: #2d2e2e;
+    --btn-blue: #3891a6;
+    --accent: #23ce6b;
+    --text-white: #fbfbfb;
+    --container-color: #6bbeba;
+}
+
+.all-users{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.all-User-Title{
+    font-size: 2.6em;
+    color: #0f0f0f;
+}
+.user-details{
+    background-color: var(--container-color);
+    width: 600px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1px solid var(--grey);
+    padding: 20px;
+    margin-bottom: 25px;
+}
+.all-user-page-info{
+    color: #0f0f0f;
+    font-size: 24pt;
+    font-weight: bolder;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.all-users-home-button{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.all-users-back-btn{
+    background-color: var(--btn-blue);
+    color: var(--text-white);
+    width: 150px;
+    height: 40px;
+    border: 1px solid var(--grey);
+    border-radius: 10px;
+    padding: auto;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}

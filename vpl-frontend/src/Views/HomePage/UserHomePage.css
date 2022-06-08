@@ -1,0 +1,182 @@
+:root {
+    --border-color: #000;
+    --grey: #2d2e2e;
+    --btn-blue: #3891a6;
+    --btn-text-white: #fbfbfb;
+    --body-color: #b0c4de;
+    --inner-container-color: #add8e6;
+    --container-color: #6bbeba;
+    --text-color: #0a232b;
+  }
+.menu-bar{
+    margin-bottom: 120px;
+    margin-top: 3px;
+}
+.popular-button{
+    background-color: var(--btn-blue);
+    color: var(--btn-text-white);
+    border-radius: 10px;
+    font-size: 1.2em;
+    margin-left: 5px;
+}
+
+.recent-button{
+    background-color: var(--btn-blue);
+    color: var(--btn-text-white);
+    border-radius: 10px;
+    font-size: 1.2em;
+    margin-left: 10px;
+}
+
+.mybooks-button{
+    background-color: var(--btn-blue);
+    color: var(--btn-text-white);
+    border-radius: 10px;
+    font-size: 1.2em;
+    margin-left: 10px;
+}
+
+.user-homepage-select-genre{
+    background-color: var(--btn-blue);
+    color: var(--btn-text-white);
+    border-radius: 10px;
+    border: 2px solid var(--border-color);
+    font-size: 1.21em;
+    margin-left: 10px;
+}
+.search-button{
+    background-color: var(--btn-blue);
+    color: var(--btn-text-white);
+    border-radius: 10px;
+    font-size: 1.21em;
+    margin-left: 10px;
+}
+
+
+.home-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row1{
+    background-color: var(--container-color);
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 3px solid var(--border-color);
+    
+}
+.row1-preview-header{
+    color: var(--btn-text-white);
+    display: inline-block;
+}
+.row1-preview-list{
+    width: 1200px;
+    height: 350px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.row1-book-container{
+   background-color: var(--inner-container-color);
+   margin-left: 10px;
+   margin-right: 10px;
+   height: 300px;
+   flex-basis: 300px;
+   flex-grow: 0;
+   flex-shrink: 0;
+   border-radius: 5px;
+   border: 2px solid var(--border-color);
+}
+.row1-book-details{
+    color: var(--text-color);
+    margin-left: 10px;
+}
+
+/*----------------------------------------------------------------*/
+/*----------------------------------------------------------------*/
+/*----------------------------------------------------------------*/
+
+.row2{
+    background-color: var(--container-color);
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 3px solid var(--border-color);
+}
+
+.row2-preview-header{
+    color: var(--btn-text-white);
+    display: inline-block;
+}
+.row2-preview-list{
+    width: 1200px;
+    height: 350px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.row2-book-container{
+   background-color: var(--inner-container-color);
+   margin-left: 10px;
+   margin-right: 10px;
+   height: 300px;
+   flex-basis: 300px;
+   flex-grow: 0;
+   flex-shrink: 0;
+   border-radius: 5px;
+   border: 2px solid var(--border-color);
+}
+.row2-book-details{
+    color: var(--text-color);
+    margin-left: 10px;
+}
+
+/*----------------------------------------------------------------*/
+/*----------------------------------------------------------------*/
+/*----------------------------------------------------------------*/
+
+.row3{
+    background-color: var(--container-color);
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 3px solid var(--border-color);
+}
+.row3-preview-header{
+    color: var(--btn-text-white);
+    display: inline-block;
+}
+.row3-preview-list{
+    width: 1200px;
+    height: 350px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: row;
+}
+.row3-book-container{
+   background-color: var(--inner-container-color);
+   margin-left: 10px;
+   margin-right: 10px;
+   height: 300px;
+   flex-basis: 300px;
+   flex-grow: 0;
+   flex-shrink: 0;
+   border-radius: 5px;
+   border: 2px solid var(--border-color);
+}
+.row3-book-details{
+    color: var(--text-color);
+    margin-left: 10px;
+}
