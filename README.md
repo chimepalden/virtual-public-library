@@ -28,7 +28,8 @@ The Virtual Public Library will manage the process of checking out e-books. All 
 * Update book's details
 * View list of all registered customers/members
 
-Implemented Spring Data JPA and Hibernate to create database in AWS.
-Used EC2 to host backend API
-Used FileZilla to transfer file from local to remote.
+# Cloud
+* Implemented Spring Data JPA and Hibernate to create database in AWS.
+* Used EC2 to host backend API
+* Used FileZilla to transfer file from local to remote.
 
