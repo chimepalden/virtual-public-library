@@ -1,5 +1,5 @@
 # Virtual Public Library
-The Virtual Public Library will manage the process of checking out e-books. All users can register an account, login/logout, search for books based on a variety of filters.
+The Virtual Public Library will manage the process of checking out e-books. All users can register an account, login/logout, search for a book/books with filters.
 
 # Technologies Used
 * Java
