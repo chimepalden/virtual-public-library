@@ -11,6 +11,7 @@ The Virtual Public Library will manage the process of checking out e-books. All 
 * PostgreSQL
 
 # User Stories
+## As a customer/member
 * Register new account and receives welcome email.
 * Login/Logout
 * View Homepage
