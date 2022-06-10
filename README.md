@@ -9,3 +9,13 @@ The Virtual Public Library will manage the process of checking out e-books. All 
 * Spring Boot
 * Spring Data
 * PostgreSQL
+
+# User Stories
+* Register new account and receives welcome email.
+* Login/Logout
+* View Homepage
+* View/Edit user's account information.
+* Checkout Book
+* View list of checked-out books.
+* View books by genre
+* Search books by title, author and ISBN.
