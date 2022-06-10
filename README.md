@@ -12,11 +12,20 @@ The Virtual Public Library will manage the process of checking out e-books. All 
 
 # User Stories
 ## As a customer/member
-* Register new account and receives welcome email.
+* Register new account and receives welcome email
 * Login/Logout
 * View Homepage
-* View/Edit user's account information.
+* View/Edit user's account information
 * Checkout Book
-* View list of checked-out books.
+* View list of checked-out books
 * View books by genre
-* Search books by title, author and ISBN.
+* Search books by title, author and ISBN
+
+## As a owner/manager
+* Loin/Logout
+* Add new books
+* Delete books by ISBN
+* Update book's details
+* View list of all registered customers/members
+
+# Database ERD Diagram 
