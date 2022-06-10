@@ -1,4 +1,4 @@
-# Virtual Public Library
+# Virtual Public Library - EM220418 P2
 The Virtual Public Library will manage the process of checking out e-books. All users can register an account, login/logout, search for a book/books with filters.
 
 # Technologies Used
