@@ -27,5 +27,3 @@ The Virtual Public Library will manage the process of checking out e-books. All 
 * Delete books by ISBN
 * Update book's details
 * View list of all registered customers/members
-
-# Database ERD Diagram 
